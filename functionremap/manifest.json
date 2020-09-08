@@ -1,0 +1,22 @@
+{
+  "name": "Function Key Remapper",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Allows you to remap Function Keys",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Function Key Remapper",
+      "type": "ime",
+      "id": "fn_key_remapper",
+      "description": "Allows you to remap Function keys",
+      "language": "en-US",
+      "layouts": ["us::eng"]
+    }
+  ]
+}
